@@ -16,7 +16,7 @@ RSpec.describe MyQueue do
       queue.add(0)
 
       expect(queue.peek).to eq(1)
-    end
+    end 
 
   end
 
